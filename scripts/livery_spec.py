@@ -34,7 +34,8 @@ SCHEMA = {
         "wheel_color": "str",
         "tires": "str",
         "race_number": "str"
-    }
+    },
+    "aero_modification": ["oem_preserve", "aftermarket_real", "concept_radical"]
 }
 
 def create_default_spec(title, make, model, style="JGTC"):
@@ -42,6 +43,7 @@ def create_default_spec(title, make, model, style="JGTC"):
         "title": title,
         "author": "Livery Architect",
         "platform": "GT7",
+        "aero_modification": "oem_preserve",
         "chassis": {
             "make": make,
             "model": model,

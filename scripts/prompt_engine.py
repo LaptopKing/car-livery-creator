@@ -7,6 +7,11 @@ Implements locked STYLE BLOCK + CONTENT BLOCK architecture inspired by:
 Provides two distinct rendering engines:
 1. hand_drawn (DEFAULT): Traditional industrial automotive design studio concept sketch (Copic markers, Prismacolor, Posca paint pen, 3/4 rotated dynamic perspective).
 2. realistic: Commercial automotive 3D studio / motorsport photography with complex geometric liveries and ray-traced reflections.
+
+Provides three chassis/body modification tiers:
+1. oem_preserve (DEFAULT): Strict 100% preservation of all factory body panels, hood, bumpers, trunk, mirrors, spoilers, and wheels.
+2. aftermarket_real: Creative use of verified, real-world aftermarket tuner components (Chargespeed, C-West, Prodrive, JUN, Volk, Enkei).
+3. concept_radical: Extreme creative freedom with futuristic, prototype, or fictional aerodynamic parts that don't exist yet.
 """
 
 import sys
@@ -27,8 +32,21 @@ Style: Commercial automotive studio photography with dynamic 3/4 front three-poi
 - Camera: Low 3/4 front angle, 35mm lens perspective, shallow depth of field, wheels turned slightly outward showing the deep rim concave and brake hardware.
 - Realism: Ultra-sharp 8K detail on carbon weave textures, metallic paint flake, tire rubber compound grain with white tire stencils, and realistic glass refractions."""
 
+AERO_BLOCKS = {
+    "oem_preserve": """- CHASSIS & BODY PRESERVATION (STRICT OEM INVARIANT - DEFAULT):
+  Do NOT modify, swap, or alter any body panels, engine hood, front/rear bumpers, trunk, side mirrors, OEM spoiler/wing, or wheels.
+  The vehicle's sheet metal, aero, and wheels MUST strictly remain 100% factory OEM / as photographed.
+  Apply livery graphics purely as a vinyl wrap over the unmodified factory bodywork.""",
+    "aftermarket_real": """- CHASSIS & BODY SPEC (AUTHENTIC REAL-WORLD AFTERMARKET / OEM+):
+  Enhanced with period-correct, verified real-world tuner body components (e.g. Chargespeed, C-West, Prodrive, Bomex, JUN, STI S201 aero, authentic aftermarket forged wheels like TE37/RPF1).
+  All aero additions must represent existing, real-world manufactured parts matching the chassis era.""",
+    "concept_radical": """- CHASSIS & BODY SPEC (RADICAL PROTOTYPE & CONCEPT AERO):
+  Hyper-creative custom bodywork. Can feature prototype or fictional aerodynamic components that do not exist yet (custom bespoke widebody blisters, 3D-printed time-attack splitters, aggressive multi-element diffusers, active aero wings, sculpted vortex generators)."""
+}
+
 def build_prompt(car_name,
                  style_mode="hand_drawn",
+                 aero_mode="oem_preserve",
                  angle="3/4 front dynamic perspective",
                  base_color="Liquid Platinum Silver",
                  secondary_graphics="Matte Obsidian Black knife-blade speed slashes",
@@ -39,11 +57,14 @@ def build_prompt(car_name,
                  plate="LJC-055"):
     """Assembles a high-precision prompt using locked Style DNA"""
     style_block = STYLE_HAND_DRAWN if style_mode == "hand_drawn" else STYLE_REALISTIC
+    aero_block = AERO_BLOCKS.get(aero_mode, AERO_BLOCKS["oem_preserve"])
 
     content_block = f"""[CONTENT BLOCK - VEHICLE & LIVERY SPECIFICATION]
 Subject: {car_name}
 Camera & Stance: Rotated {angle}, low aggressive stance, wide track, front wheels turned slightly.
 Hardware: {wheels}.
+
+{aero_block}
 
 Livery Graphics (Intricate Multi-Layered Motorsport Design):
 - Base (60%): {base_color}
@@ -58,6 +79,7 @@ def main():
     parser = argparse.ArgumentParser(description="Generate locked style prompts for car liveries")
     parser.add_argument("--car", default="Subaru Impreza GF8 Sportswagon", help="Vehicle name")
     parser.add_argument("--mode", default="hand_drawn", choices=["hand_drawn", "realistic"], help="Render mode")
+    parser.add_argument("--aero", default="oem_preserve", choices=["oem_preserve", "aftermarket_real", "concept_radical"], help="Chassis aero/body mode")
     parser.add_argument("--base", default="Liquid Platinum Silver", help="Base paint color")
     parser.add_argument("--sec", default="Matte Obsidian Black speed blades", help="Secondary graphic mass")
     parser.add_argument("--acc", default="Fluorescent Neon Yellow (#FFE600)", help="Accent color")
@@ -67,6 +89,7 @@ def main():
     prompt = build_prompt(
         car_name=args.car,
         style_mode=args.mode,
+        aero_mode=args.aero,
         base_color=args.base,
         secondary_graphics=args.sec,
         accent_color=args.acc

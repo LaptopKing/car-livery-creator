@@ -65,6 +65,26 @@ Car Livery Creator provides two visual presentation engines built on the **locke
 
 ---
 
+## Chassis & Body Modification Tiers (Preservation vs Aftermarket vs Radical Concept)
+
+Car Livery Creator enforces a strict three-tier architecture for vehicle bodywork:
+
+### Tier 1: Strict OEM Preservation (DEFAULT — Zero Body Panel Alteration)
+* **Invariant:** By default, **NEVER alter, replace, or modify any physical body panel of the car**.
+* **Preserved Components:** Factory engine hood (and OEM scoop/vents), OEM front & rear bumpers, OEM trunk/tailgate, OEM side mirrors, OEM spoilers, factory fenders, rub strips, and original wheels.
+* **Execution:** All liveries are designed strictly as surface vinyl graphics applied over the unmodified factory sheet metal and plastic.
+
+### Tier 2: Real-World Aftermarket & OEM+ (Enabled on User Request)
+* **Scope:** Activated when the user asks to "get creative with existing car parts" or add period-correct aero kits (e.g. C-West, Chargespeed, JUN, Prodrive, Bomex, Nismo, Mugen, Varis, authentic wheels like Volk TE37, Enkei RPF1, BBS LM).
+* **Research & User Notice Protocol:**
+  > [!NOTE] User Notice Requirement for Tier 2:
+  > When the user requests existing aftermarket parts, the agent must notify the user:
+  > *"For the first-time lookup of existing aftermarket parts for your chassis, initial research may take a brief moment. You can choose to let me run the full research pass, or skip it and let me do my best based on known catalog data."*
+
+### Tier 3: Radical Concept & Custom Aero (Enabled on User Request)
+* **Scope:** Activated when the user asks to "get even more creative" or add experimental body parts that might not even exist yet.
+* **Execution:** Full conceptual freedom to design bespoke 3D-printed prototype aero, aggressive custom widebody blisters, futuristic time-attack tunnel diffusers, active carbon wing blades, and sculpted concept canards.
+
 ---
 
 ## The 6-Phase Design Workflow
