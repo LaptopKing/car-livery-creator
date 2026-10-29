@@ -41,6 +41,29 @@ All scripts are standalone Python 3 utilities living in `scripts/`:
 | `scripts/gt7_svg_optimizer.py` | Sanitizes and compresses SVG decals to comply with Gran Turismo 7's strict **15.0 KB** limit. Strips editor namespaces, rounds coordinates, and removes rasters. |
 | `scripts/livery_spec.py` | Creates, validates, and exports standardized livery JSON specifications and markdown summary sheets. |
 | `scripts/preview_sheet.py` | Builds a standalone interactive HTML showcase sheet with real-time palette toggles, day/night lighting simulation, and contrast gauges. |
+| `scripts/prompt_engine.py` | Generates locked Style DNA prompts for Hand-Drawn Concept Sketches (default) and Photorealistic Studio Renders with virtual 3D camera rotation. |
+
+---
+
+## Dual Output Visual Engines (Hand-Drawn & Realistic)
+
+Car Livery Creator provides two visual presentation engines built on the **locked `[STYLE BLOCK]` + `[CONTENT BLOCK]` architecture** (synthesized from [`FriedDev/handdrawn-presentation-skill`](https://github.com/FriedDev/handdrawn-presentation-skill) and [`songxiaopeng529/story-picture`](https://github.com/songxiaopeng529/story-picture)):
+
+### 1. Hand-Drawn Automotive Concept Sketch (DEFAULT)
+* **Aesthetic:** Authentic industrial automotive design studio concept sketch drawn by hand on bleedproof layout marker paper.
+* **Media & Technique:**
+  * **Markers:** Layered Copic alcohol markers (Cool Grays C1–C9 + 100 Black + vibrant saturated body color markers) with subtle marker brush stroke textures.
+  * **Linework:** Confident, expressive felt-tip technical pen and ballpoint linework with visible construction axes and dynamic lineweight (heavy underside occlusion shadow beneath the car and in the wheel wells; razor-sharp thin lines on highlights).
+  * **Highlights:** Opaque white Posca paint pen and gouache streaks running along the car's shoulder crease, hood power bulge, and diagonal windshield glare streak.
+  * **Virtual Camera Rotation:** Dynamic 3/4 front or 3/4 rear three-point perspective, aggressive wide stance, wheels turned slightly to showcase rim architecture, and marker speed wash grounding the tires.
+  * **Studio Details:** Design studio presentation board aesthetic with subtle technical callout annotations in the margin, marker color swatch test blocks, and hand-lettered model titling.
+
+### 2. Photorealistic Studio / Track Render (SECONDARY)
+* **Aesthetic:** High-end commercial automotive studio or wet track photography.
+* **Camera & Lighting:** Dynamic 3/4 front or rear angle, 35mm lens perspective, shallow depth of field, overhead cinematic softbox strip lighting casting long specular highlights.
+* **Intricate Motorsport Detailing:** Full 83-car reference depth — multi-layered geometric speed ribbons, windshield sun visor banners, Tier 1–4 sponsor ecosystems, tire stencils (`POTENZA` / `ADVAN`), visible Brembo calipers, and realistic vinyl wrap finishes (satin, gloss metallic, matte duo).
+
+---
 
 ---
 
