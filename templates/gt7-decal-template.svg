@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- GT7 DECAL TEMPLATE: Standard 512x512 Canvas (<15KB Strict Limit) -->
+  <g id="decal_artwork">
+    <path d="M 64 256 L 256 64 L 448 256 L 256 448 Z" fill="#DE0029"/>
+    <circle cx="256" cy="256" r="120" fill="#FFFFFF"/>
+    <path d="M 220 180 L 292 256 L 220 332 Z" fill="#0055A5"/>
+  </g>
+</svg>

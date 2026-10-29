@@ -1,0 +1,57 @@
+{
+  "title": "Castrol TOM'S Supra GT500",
+  "author": "Livery Architect",
+  "platform": "GT7",
+  "chassis": {
+    "make": "Toyota",
+    "model": "Supra A80",
+    "year": 1999,
+    "class": "GT500"
+  },
+  "palette": {
+    "dominant_60": {
+      "name": "Cobalt Blue",
+      "hex": "#0055A5",
+      "finish": "High Gloss"
+    },
+    "secondary_30": {
+      "name": "Arctic White",
+      "hex": "#FFFFFF",
+      "finish": "Gloss"
+    },
+    "accent_10": {
+      "name": "Amber Yellow",
+      "hex": "#FFD200",
+      "finish": "Gloss"
+    }
+  },
+  "graphic_style": "wedge_split",
+  "sponsors": {
+    "title": "CALSONIC",
+    "secondary": [
+      "IMPUL",
+      "BRIDGESTONE",
+      "NISMO"
+    ],
+    "vertical_stack": [
+      "NISMO",
+      "TEIN",
+      "ENDLESS",
+      "RAYS",
+      "MOTUL"
+    ]
+  },
+  "hardware": {
+    "wheels": "Impul Aerodisc",
+    "wheel_color": "#FFFFFF",
+    "tires": "Bridgestone Potenza",
+    "race_number": "12"
+  },
+  "scrutineering": {
+    "driver_name": "K. Hoshino",
+    "country_flag": "JP",
+    "blood_type": "A+",
+    "tow_arrows": true,
+    "kill_switch": true
+  }
+}

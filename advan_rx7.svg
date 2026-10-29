@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+    <defs>
+        <!-- Gradients & Shadows -->
+        <linearGradient id="groundShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#000000" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="glassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1A2530"/>
+            <stop offset="70%" stop-color="#2D3E50"/>
+            <stop offset="100%" stop-color="#141E28"/>
+        </linearGradient>
+        <clipPath id="bodyClip">
+            <path d="M 110 285 L 130 260 L 210 240 L 320 235 L 420 175 C 520 160 620 170 710 205 L 860 225 L 895 255 L 890 295 L 850 295 C 820 235 730 235 695 295 L 345 295 C 315 235 225 235 190 295 L 110 295 Z"/>
+        </clipPath>
+    </defs>
+
+    <!-- Studio / Track Backdrop -->
+    <rect width="100%" height="100%" fill="#141417"/>
+    <line x1="0" y1="345" x2="1000" y2="345" stroke="#252528" stroke-width="2"/>
+
+    <!-- Ground Contact Shadow -->
+    <ellipse cx="500" cy="350" rx="440" ry="18" fill="url(#groundShadow)"/>
+
+    <!-- GT Wing (Rear) -->
+    <path d='M 820 205 L 845 155 L 925 155 L 905 210 M 850 155 L 840 205' fill='#0A0A0A' stroke='#222' stroke-width='2'/>
+
+    <!-- BASE CAR BODY (Clipped for liveries) -->
+    <g id="car_assembly">
+        <!-- Main Painted Shell -->
+        <path d="M 110 285 L 130 260 L 210 240 L 320 235 L 420 175 C 520 160 620 170 710 205 L 860 225 L 895 255 L 890 295 L 850 295 C 820 235 730 235 695 295 L 345 295 C 315 235 225 235 190 295 L 110 295 Z" fill="#111111" stroke="#1A1A1A" stroke-width="3"/>
+
+        <!-- Livery Graphics (Clipped to body) -->
+        <g clip-path="url(#bodyClip)">
+            
+        <g id="livery_advan">
+            <polygon points="520,170 590,170 470,295 400,295" fill="#DE0029"/>
+            <polygon points="620,170 690,170 570,295 500,295" fill="#DE0029"/>
+            <polygon points="720,180 790,200 670,295 600,295" fill="#DE0029"/>
+            <polygon points="810,210 880,225 770,295 700,295" fill="#DE0029"/>
+        </g>
+        
+
+            <!-- Mid-Door Title Sponsor Billboard -->
+            <g transform="translate(510, 248)">
+                <text x="0" y="0" font-family="'Impact', 'Arial Black', sans-serif" font-size="34" font-weight="900" 
+                      fill="#FFFFFF" stroke="#000000" stroke-width="2" text-anchor="middle" letter-spacing="1">
+                    ADVAN
+                </text>
+                <text x="0" y="18" font-family="sans-serif" font-size="12" font-weight="bold" 
+                      fill="#FFFFFF" text-anchor="middle" letter-spacing="3">
+                    YOKOHAMA
+                </text>
+            </g>
+
+            <!-- Tier 3 Vertical Sponsor Stack (Front Fender) -->
+            <g transform="translate(345, 235)" font-family="sans-serif" font-size="7" font-weight="900" fill="#FFFFFF">
+                <text x="0" y="0">NISMO</text>
+                <text x="0" y="9">TEIN</text>
+                <text x="0" y="18">ENDLESS</text>
+                <text x="0" y="27">RAYS</text>
+                <text x="0" y="36">MOTUL</text>
+            </g>
+
+            <!-- Competition Number Box (If not kanjo meatball) -->
+            <g transform="translate(425, 220)">
+                <rect width="36" height="42" fill="#FFFFFF" stroke="#000" stroke-width="2" rx="3"/>
+                <rect x="0" y="0" width="36" height="10" fill="#FFFFFF" rx="2"/>
+                <text x="18" y="34" font-family="'Impact', sans-serif" font-size="24" font-weight="bold" fill="#111" text-anchor="middle">77</text>
+            </g>
+
+            <!-- Scrutineering Details: Tow Hook Arrow -->
+            <g transform="translate(130, 280)">
+                <polygon points="0,0 8,4 0,8" fill="#FF1744"/>
+                <text x="11" y="6" font-family="monospace" font-size="6" font-weight="bold" fill="#FF1744">TOW</text>
+            </g>
+        </g>
+
+        <!-- Cabin Greenhouse / Windows -->
+        <path d="M 425 180 C 515 168 610 175 695 208 L 330 235 Z" fill="url(#glassGradient)" stroke="#111111" stroke-width="2.5"/>
+
+        <!-- A/B/C Pillars & Door Cutlines -->
+        <path d="M 430 185 L 425 290 M 650 200 L 640 290" fill="none" stroke="#1A1A1A" stroke-width="2.5"/>
+
+        <!-- Aerodynamic Lower Rocker Splitter -->
+        <path d="M 110 295 L 900 295 L 890 302 L 115 302 Z" fill="#080808"/>
+
+        <!-- Headlight & Taillight Units -->
+        <path d="M 170 245 L 210 240 L 205 252 Z" fill="#FFFDE7" stroke="#333" stroke-width="1"/>
+        <path d="M 875 235 L 890 248 L 870 255 Z" fill="#D50000" stroke="#333" stroke-width="1"/>
+    </g>
+
+    <!-- Wheels (Drawn above body) -->
+    
+    <!-- Wheel Assembly at (270, 295) -->
+    <g class="wheel">
+        <!-- Rubber Tire -->
+        <circle cx="270" cy="295" r="66" fill="#18181A" stroke="#0D0D0F" stroke-width="4"/>
+        <circle cx="270" cy="295" r="56" fill="none" stroke="#252528" stroke-width="1.5" stroke-dasharray="8 4"/>
+        <!-- Tire Lettering Stencil -->
+        <path id="tire_curve_270" d="M 212 295 A 58 58 0 0 1 328 295" fill="none"/>
+        <text font-family="'Impact', 'Arial Black', sans-serif" font-size="9" font-weight="bold" fill="#F0F0F0" letter-spacing="2">
+            <textPath href="#tire_curve_270" startOffset="50%" text-anchor="middle">
+                ADVAN
+            </textPath>
+        </text>
+        <!-- Rim Outer Lip -->
+        <circle cx="270" cy="295" r="50" fill="#111111" stroke="#444444" stroke-width="2.5"/>
+        <circle cx="270" cy="295" r="46" fill="#C5A059" stroke="#000000" stroke-width="1.5"/>
+        <circle cx="270" cy="295" r="38" fill="#0A0A0A"/>
+    
+        <!-- 6 Spokes -->
+        <g stroke="#C5A059" stroke-width="7" stroke-linecap="round">
+            <line x1="270" y1="295" x2="270" y2="253"/>
+            <line x1="270" y1="295" x2="313" y2="274"/>
+            <line x1="270" y1="295" x2="313" y2="316"/>
+            <line x1="270" y1="295" x2="270" y2="337"/>
+            <line x1="270" y1="295" x2="227" y2="316"/>
+            <line x1="270" y1="295" x2="227" y2="274"/>
+        </g>
+        <!-- Center Hub & 5 Lugs -->
+        <circle cx="270" cy="295" r="12" fill="#111111" stroke="#333" stroke-width="1.5"/>
+        <circle cx="270" cy="295" r="5" fill="#0055A5"/>
+        <circle cx="270" cy="288" r="1.8" fill="#FFF"/>
+        <circle cx="277" cy="293" r="1.8" fill="#FFF"/>
+        <circle cx="274" cy="301" r="1.8" fill="#FFF"/>
+        <circle cx="266" cy="301" r="1.8" fill="#FFF"/>
+        <circle cx="263" cy="293" r="1.8" fill="#FFF"/>
+        </g>
+
+    
+    <!-- Wheel Assembly at (770, 295) -->
+    <g class="wheel">
+        <!-- Rubber Tire -->
+        <circle cx="770" cy="295" r="66" fill="#18181A" stroke="#0D0D0F" stroke-width="4"/>
+        <circle cx="770" cy="295" r="56" fill="none" stroke="#252528" stroke-width="1.5" stroke-dasharray="8 4"/>
+        <!-- Tire Lettering Stencil -->
+        <path id="tire_curve_770" d="M 712 295 A 58 58 0 0 1 828 295" fill="none"/>
+        <text font-family="'Impact', 'Arial Black', sans-serif" font-size="9" font-weight="bold" fill="#F0F0F0" letter-spacing="2">
+            <textPath href="#tire_curve_770" startOffset="50%" text-anchor="middle">
+                ADVAN
+            </textPath>
+        </text>
+        <!-- Rim Outer Lip -->
+        <circle cx="770" cy="295" r="50" fill="#111111" stroke="#444444" stroke-width="2.5"/>
+        <circle cx="770" cy="295" r="46" fill="#C5A059" stroke="#000000" stroke-width="1.5"/>
+        <circle cx="770" cy="295" r="38" fill="#0A0A0A"/>
+    
+        <!-- 6 Spokes -->
+        <g stroke="#C5A059" stroke-width="7" stroke-linecap="round">
+            <line x1="770" y1="295" x2="770" y2="253"/>
+            <line x1="770" y1="295" x2="813" y2="274"/>
+            <line x1="770" y1="295" x2="813" y2="316"/>
+            <line x1="770" y1="295" x2="770" y2="337"/>
+            <line x1="770" y1="295" x2="727" y2="316"/>
+            <line x1="770" y1="295" x2="727" y2="274"/>
+        </g>
+        <!-- Center Hub & 5 Lugs -->
+        <circle cx="770" cy="295" r="12" fill="#111111" stroke="#333" stroke-width="1.5"/>
+        <circle cx="770" cy="295" r="5" fill="#0055A5"/>
+        <circle cx="770" cy="288" r="1.8" fill="#FFF"/>
+        <circle cx="777" cy="293" r="1.8" fill="#FFF"/>
+        <circle cx="774" cy="301" r="1.8" fill="#FFF"/>
+        <circle cx="766" cy="301" r="1.8" fill="#FFF"/>
+        <circle cx="763" cy="293" r="1.8" fill="#FFF"/>
+        </g>
+
+
+    <!-- Spec Banner Header -->
+    <text x="30" y="40" font-family="'Impact', sans-serif" font-size="20" fill="#E0E0E0" letter-spacing="1">
+        CAR LIVERY CREATOR // MAZDA RX-7 (FD3S)
+    </text>
+    <text x="30" y="60" font-family="monospace" font-size="11" fill="#888888">
+        STYLE: ADVAN_SLASH | BASE: #111111 | ACCENT: #FFFFFF | SPONSOR: ADVAN #77
+    </text>
+</svg>

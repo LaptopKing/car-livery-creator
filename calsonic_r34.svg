@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+    <defs>
+        <!-- Gradients & Shadows -->
+        <linearGradient id="groundShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#000000" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="glassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1A2530"/>
+            <stop offset="70%" stop-color="#2D3E50"/>
+            <stop offset="100%" stop-color="#141E28"/>
+        </linearGradient>
+        <clipPath id="bodyClip">
+            <path d="M 120 280 L 140 250 L 190 235 L 280 230 L 390 170 L 620 170 L 740 220 L 890 230 L 910 260 L 900 295 L 860 300 L 840 290 C 800 230 710 230 670 290 L 350 290 C 310 230 220 230 180 290 L 120 290 Z"/>
+        </clipPath>
+    </defs>
+
+    <!-- Studio / Track Backdrop -->
+    <rect width="100%" height="100%" fill="#141417"/>
+    <line x1="0" y1="345" x2="1000" y2="345" stroke="#252528" stroke-width="2"/>
+
+    <!-- Ground Contact Shadow -->
+    <ellipse cx="500" cy="350" rx="440" ry="18" fill="url(#groundShadow)"/>
+
+    <!-- GT Wing (Rear) -->
+    <path d='M 840 210 L 870 145 L 940 145 L 920 215 M 865 145 L 850 210' fill='#0A0A0A' stroke='#222' stroke-width='2'/>
+
+    <!-- BASE CAR BODY (Clipped for liveries) -->
+    <g id="car_assembly">
+        <!-- Main Painted Shell -->
+        <path d="M 120 280 L 140 250 L 190 235 L 280 230 L 390 170 L 620 170 L 740 220 L 890 230 L 910 260 L 900 295 L 860 300 L 840 290 C 800 230 710 230 670 290 L 350 290 C 310 230 220 230 180 290 L 120 290 Z" fill="#0055A5" stroke="#1A1A1A" stroke-width="3"/>
+
+        <!-- Livery Graphics (Clipped to body) -->
+        <g clip-path="url(#bodyClip)">
+            
+        <g id="livery_wedge">
+            <path d="M 120 280 L 350 280 L 890 230 L 910 260 L 900 295 L 670 295 L 350 295 L 120 295 Z" fill="#FFFFFF" opacity="0.95"/>
+            <polygon points="280,230 910,180 910,230 600,230" fill="#FFD200" opacity="0.9"/>
+            <line x1="280" y1="230" x2="910" y2="180" stroke="#FFFFFF" stroke-width="4"/>
+        </g>
+        
+
+            <!-- Mid-Door Title Sponsor Billboard -->
+            <g transform="translate(510, 248)">
+                <text x="0" y="0" font-family="'Impact', 'Arial Black', sans-serif" font-size="34" font-weight="900" 
+                      fill="#FFFFFF" stroke="#000000" stroke-width="2" text-anchor="middle" letter-spacing="1">
+                    CALSONIC
+                </text>
+                <text x="0" y="18" font-family="sans-serif" font-size="12" font-weight="bold" 
+                      fill="#FFD200" text-anchor="middle" letter-spacing="3">
+                    IMPUL
+                </text>
+            </g>
+
+            <!-- Tier 3 Vertical Sponsor Stack (Front Fender) -->
+            <g transform="translate(345, 235)" font-family="sans-serif" font-size="7" font-weight="900" fill="#FFFFFF">
+                <text x="0" y="0">NISMO</text>
+                <text x="0" y="9">TEIN</text>
+                <text x="0" y="18">ENDLESS</text>
+                <text x="0" y="27">RAYS</text>
+                <text x="0" y="36">MOTUL</text>
+            </g>
+
+            <!-- Competition Number Box (If not kanjo meatball) -->
+            <g transform="translate(425, 220)">
+                <rect width="36" height="42" fill="#FFFFFF" stroke="#000" stroke-width="2" rx="3"/>
+                <rect x="0" y="0" width="36" height="10" fill="#FFD200" rx="2"/>
+                <text x="18" y="34" font-family="'Impact', sans-serif" font-size="24" font-weight="bold" fill="#111" text-anchor="middle">12</text>
+            </g>
+
+            <!-- Scrutineering Details: Tow Hook Arrow -->
+            <g transform="translate(130, 280)">
+                <polygon points="0,0 8,4 0,8" fill="#FF1744"/>
+                <text x="11" y="6" font-family="monospace" font-size="6" font-weight="bold" fill="#FF1744">TOW</text>
+            </g>
+        </g>
+
+        <!-- Cabin Greenhouse / Windows -->
+        <path d="M 395 175 L 615 175 L 725 220 L 290 230 Z" fill="url(#glassGradient)" stroke="#111111" stroke-width="2.5"/>
+
+        <!-- A/B/C Pillars & Door Cutlines -->
+        <path d="M 420 180 L 410 285 M 630 180 L 620 285" fill="none" stroke="#1A1A1A" stroke-width="2.5"/>
+
+        <!-- Aerodynamic Lower Rocker Splitter -->
+        <path d="M 110 295 L 900 295 L 890 302 L 115 302 Z" fill="#080808"/>
+
+        <!-- Headlight & Taillight Units -->
+        <path d="M 130 255 L 180 245 L 175 260 Z" fill="#FFFDE7" stroke="#333" stroke-width="1"/>
+        <path d="M 895 240 L 905 255 L 885 260 Z" fill="#D50000" stroke="#333" stroke-width="1"/>
+    </g>
+
+    <!-- Wheels (Drawn above body) -->
+    
+    <!-- Wheel Assembly at (265, 290) -->
+    <g class="wheel">
+        <!-- Rubber Tire -->
+        <circle cx="265" cy="290" r="68" fill="#18181A" stroke="#0D0D0F" stroke-width="4"/>
+        <circle cx="265" cy="290" r="58" fill="none" stroke="#252528" stroke-width="1.5" stroke-dasharray="8 4"/>
+        <!-- Tire Lettering Stencil -->
+        <path id="tire_curve_265" d="M 205 290 A 60 60 0 0 1 325 290" fill="none"/>
+        <text font-family="'Impact', 'Arial Black', sans-serif" font-size="9" font-weight="bold" fill="#F0F0F0" letter-spacing="2">
+            <textPath href="#tire_curve_265" startOffset="50%" text-anchor="middle">
+                POTENZA
+            </textPath>
+        </text>
+        <!-- Rim Outer Lip -->
+        <circle cx="265" cy="290" r="52" fill="#111111" stroke="#444444" stroke-width="2.5"/>
+        <circle cx="265" cy="290" r="48" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+        <circle cx="265" cy="290" r="40" fill="#0A0A0A"/>
+    
+        <circle cx="265" cy="290" r="47" fill="#FFFFFF" stroke="#222" stroke-width="1"/>
+        <circle cx="265" cy="290" r="38" fill="none" stroke="#DE0029" stroke-width="2"/>
+        <text x="265" y="274" font-family="Arial, sans-serif" font-size="8" font-weight="900" fill="#111" text-anchor="middle">IMPUL</text>
+        <circle cx="265" cy="290" r="10" fill="#DE0029" stroke="#880010" stroke-width="1.5"/>
+        <circle cx="265" cy="290" r="4" fill="#FFD700"/>
+        </g>
+
+    
+    <!-- Wheel Assembly at (755, 290) -->
+    <g class="wheel">
+        <!-- Rubber Tire -->
+        <circle cx="755" cy="290" r="68" fill="#18181A" stroke="#0D0D0F" stroke-width="4"/>
+        <circle cx="755" cy="290" r="58" fill="none" stroke="#252528" stroke-width="1.5" stroke-dasharray="8 4"/>
+        <!-- Tire Lettering Stencil -->
+        <path id="tire_curve_755" d="M 695 290 A 60 60 0 0 1 815 290" fill="none"/>
+        <text font-family="'Impact', 'Arial Black', sans-serif" font-size="9" font-weight="bold" fill="#F0F0F0" letter-spacing="2">
+            <textPath href="#tire_curve_755" startOffset="50%" text-anchor="middle">
+                POTENZA
+            </textPath>
+        </text>
+        <!-- Rim Outer Lip -->
+        <circle cx="755" cy="290" r="52" fill="#111111" stroke="#444444" stroke-width="2.5"/>
+        <circle cx="755" cy="290" r="48" fill="#FFFFFF" stroke="#000000" stroke-width="1.5"/>
+        <circle cx="755" cy="290" r="40" fill="#0A0A0A"/>
+    
+        <circle cx="755" cy="290" r="47" fill="#FFFFFF" stroke="#222" stroke-width="1"/>
+        <circle cx="755" cy="290" r="38" fill="none" stroke="#DE0029" stroke-width="2"/>
+        <text x="755" y="274" font-family="Arial, sans-serif" font-size="8" font-weight="900" fill="#111" text-anchor="middle">IMPUL</text>
+        <circle cx="755" cy="290" r="10" fill="#DE0029" stroke="#880010" stroke-width="1.5"/>
+        <circle cx="755" cy="290" r="4" fill="#FFD700"/>
+        </g>
+
+
+    <!-- Spec Banner Header -->
+    <text x="30" y="40" font-family="'Impact', sans-serif" font-size="20" fill="#E0E0E0" letter-spacing="1">
+        CAR LIVERY CREATOR // NISSAN SKYLINE GT-R (BNR34)
+    </text>
+    <text x="30" y="60" font-family="monospace" font-size="11" fill="#888888">
+        STYLE: WEDGE_SPLIT | BASE: #0055A5 | ACCENT: #FFD200 | SPONSOR: CALSONIC #12
+    </text>
+</svg>
