@@ -15,6 +15,7 @@ Reply in the user's language. Keep the process visible, collaborative, and groun
 
 | The user wants… | Mode | Start with |
 |---|---|---|
+| A photo/image of the user's real car is provided | **In-Situ Photo Livery** | Phase 1B (Photo preservation & In-Situ Visuals) |
 | A new custom livery for a car | **Design** (Full or Fast Track) | Phase 1 (Discovery & Brief) |
 | Feedback or refinement of an existing design | **Critique** | `references/principles.md` & `references/color-theory-velocity.md` |
 | Authentic 90s–00s Super GT / JTCC recreation or tribute | **JGTC-Heritage** | `references/jgtc-golden-era.md` & `scripts/sponsor_vault.py` |
@@ -22,7 +23,9 @@ Reply in the user's language. Keep the process visible, collaborative, and groun
 | Anime, manga, or pop-culture character translation | **Character-Itasha** | `references/japanese-street-culture.md` §5 & `references/analysis_batch_3.md` |
 | Exporting / optimizing for games or real-world printing | **Export** | `references/sim-racing-game-export.md` & `scripts/gt7_svg_optimizer.py` |
 
-**Fast Track:** When the user gives minimal information or wants instant concepts, ask at most three questions (Car model? Preferred aesthetic/colors? Target platform?), or make educated assumptions and generate two contrasting SVG concepts immediately.
+**Fast Track & User Photo Invariant:**
+- **When a real car photo is uploaded:** NEVER discard the user's photo or substitute a crude 2D vector silhouette. The 2D SVG is strictly a flat mechanical blueprint for vinyl plotters and tech specs. For visual presentation, ALWAYS generate photorealistic in-situ livery visuals directly on the actual vehicle image (preserving the real car body, wheels, stance, lighting, background, and license plates) via the `image-generator` subagent or composite pipeline.
+- **Latency Rule:** Deliver high-impact visual results quickly. Avoid stalling the turn with multi-minute background indexing, heavy model reloads, or extraneous serialization tasks. Get the visuals in front of the user immediately.
 
 ---
 
@@ -87,6 +90,8 @@ Present the concept overview image and spec summary to the user. Upon approval, 
 
 ## Red Flags — Fix Before Showing
 
+- **Flattening Real Photos:** Discarding a user's uploaded vehicle photo and substituting a rudimentary 2D flat vector silhouette. Real car photos must always receive photorealistic in-situ livery renders preserving the actual vehicle, wheels, and setting.
+- **Analysis Paralysis & High Latency:** Spending minutes on background tasks, embedding searches, or serial build loops when the user needs to see immediate visual concepts. Prioritize high-velocity visual gratification.
 - **Sticker Bombing:** Random, scattered decals with no geometric alignment or tier discipline.
 - **Static 50/50 Splits:** Halving the car down the middle with no dominant color, making the chassis look broken.
 - **Vibrating Borders:** Red directly touching saturated green or blue with no neutral white/black optical buffer line.
