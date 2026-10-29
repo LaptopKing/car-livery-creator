@@ -1,0 +1,64 @@
+{
+  "title": "Subaru Impreza GF8 Sportswagon - Glacier Works DTM Spec",
+  "author": "Antigravity Livery Studio",
+  "platform": "PhysicalWrap",
+  "chassis": {
+    "make": "Subaru",
+    "model": "Impreza Sportswagon (GF8)",
+    "year": 1996,
+    "class": "Street / Touring"
+  },
+  "palette": {
+    "dominant_60": {
+      "name": "Subaru Liquid Platinum Silver",
+      "hex": "#E1E5EB",
+      "finish": "Gloss Metallic",
+      "vinyl_code": "3M 2080-G120 White Aluminum / Avery SW900-803-M Silver Metallic"
+    },
+    "secondary_30": {
+      "name": "Obsidian Asphalt Black",
+      "hex": "#121417",
+      "finish": "Satin / Matte Duo",
+      "vinyl_code": "3M 2080-M12 Matte Black"
+    },
+    "accent_10": {
+      "name": "Velocity Neon Yellow",
+      "hex": "#FFE600",
+      "finish": "Fluorescent High Gloss",
+      "vinyl_code": "Avery SW900-244-O Fluorescent Yellow"
+    }
+  },
+  "optical_boundary": {
+    "needed": true,
+    "spacer_width_mm": 3,
+    "spacer_color": "#FFFFFF",
+    "reason": "Separates the saturated yellow accent and dark obsidian slashes from the silver base to ensure crisp contrast at high track speeds."
+  },
+  "graphic_style": "knife_wedge_flow",
+  "sponsors": {
+    "title": "PRODRIVE",
+    "secondary": [
+      "STI PERFORMANCE",
+      "SUBARU TECNICA INTERNATIONAL"
+    ],
+    "vertical_stack": [
+      "STI",
+      "MOTUL",
+      "BILSTEIN",
+      "BREMBO",
+      "ENKEI"
+    ]
+  },
+  "hardware": {
+    "wheels": "6-Spoke Rally Gold (TE37 / Speedline Style)",
+    "wheel_color": "#D4AF37",
+    "tires": "Bridgestone Potenza RE-71RS",
+    "race_number": "55"
+  },
+  "scrutineering": {
+    "driver_name": "P. Csordas",
+    "license_plate": "LJC-055 (Hungary)",
+    "tow_arrows": true,
+    "kill_switch": true
+  }
+}

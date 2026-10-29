@@ -1,0 +1,64 @@
+{
+  "title": "Subaru Impreza GF8 Sportswagon - Obsidian Interceptor Stance Spec",
+  "author": "Antigravity Livery Studio",
+  "platform": "PhysicalWrap",
+  "chassis": {
+    "make": "Subaru",
+    "model": "Impreza Sportswagon (GF8)",
+    "year": 1996,
+    "class": "Street / Stance Garage"
+  },
+  "palette": {
+    "dominant_60": {
+      "name": "Stealth Obsidian Asphalt",
+      "hex": "#131417",
+      "finish": "Satin Deep Black",
+      "vinyl_code": "3M 2080-S12 Satin Black / Avery SW900-197-S Satin Nero"
+    },
+    "secondary_30": {
+      "name": "Liquid Platinum / Silver Speed Blade",
+      "hex": "#DDE1E8",
+      "finish": "High Gloss Metallic",
+      "vinyl_code": "3M 2080-G201 Gloss Anthracite & G120 Silver"
+    },
+    "accent_10": {
+      "name": "High-Voltage Electric Cyan",
+      "hex": "#00E5FF",
+      "finish": "High Gloss Vivid",
+      "vinyl_code": "3M 2080-G378 Gloss Blue Raspberry / Cyan"
+    }
+  },
+  "optical_boundary": {
+    "needed": true,
+    "spacer_width_mm": 2.5,
+    "spacer_color": "#000000",
+    "reason": "Zero chromatic bleed; razor-sharp laser isolation boundary."
+  },
+  "graphic_style": "reverse_blade_cut",
+  "sponsors": {
+    "title": "STI",
+    "secondary": [
+      "BILSTEIN MOTORSPORT",
+      "PRODRIVE"
+    ],
+    "vertical_stack": [
+      "STI",
+      "MOTUL",
+      "BILSTEIN",
+      "BREMBO",
+      "RAYS"
+    ]
+  },
+  "hardware": {
+    "wheels": "6-Spoke Rally Gold (TE37 / Speedline Style)",
+    "wheel_color": "#D4AF37",
+    "tires": "Yokohama Advan Neova AD09",
+    "race_number": "55"
+  },
+  "scrutineering": {
+    "driver_name": "P. Csordas",
+    "license_plate": "LJC-055 (Hungary)",
+    "tow_arrows": true,
+    "kill_switch": true
+  }
+}

@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+    <defs>
+        <linearGradient id="groundShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#000000" stop-opacity="0.85"/>
+            <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="glassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#18222C"/>
+            <stop offset="65%" stop-color="#28394A"/>
+            <stop offset="100%" stop-color="#121A22"/>
+        </linearGradient>
+        <clipPath id="gf8BodyClip">
+            <path d="M 105 288 L 115 262 L 142 248 L 190 242 L 250 238 L 275 229 L 305 233 L 380 233 L 452 172 L 722 172 L 750 165 L 762 169 L 742 178 L 798 228 L 826 235 L 838 252 L 846 285 L 836 295 L 795 295 C 765 232 675 232 645 295 L 345 295 C 315 232 225 232 195 295 L 105 295 Z"/>
+        </clipPath>
+        <filter id="carbonDrop" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.6"/>
+        </filter>
+    </defs>
+
+    <!-- Studio Dark Asphalt Backdrop -->
+    <rect width="100%" height="100%" fill="#131417"/>
+    <line x1="0" y1="345" x2="1000" y2="345" stroke="#232428" stroke-width="2"/>
+    <line x1="0" y1="347" x2="1000" y2="347" stroke="#18191C" stroke-width="1"/>
+
+    <!-- Ground Contact Shadow -->
+    <ellipse cx="485" cy="350" rx="420" ry="17" fill="url(#groundShadow)"/>
+
+    <!-- Subaru GF8 Roof Spoiler (Upper Aero Wing) -->
+    <path d="M 708 174 L 755 163 L 762 168 L 720 178 Z" fill="#0E0F12" stroke="#222" stroke-width="1.5"/>
+
+    <!-- CAR BODY ASSEMBLY -->
+    <g id="car_assembly">
+        <!-- Painted Main Metal Shell -->
+        <path d="M 105 288 L 115 262 L 142 248 L 190 242 L 250 238 L 275 229 L 305 233 L 380 233 L 452 172 L 722 172 L 750 165 L 762 169 L 742 178 L 798 228 L 826 235 L 838 252 L 846 285 L 836 295 L 795 295 C 765 232 675 232 645 295 L 345 295 C 315 232 225 232 195 295 L 105 295 Z" fill="#E1E5EB" stroke="#1A1A1D" stroke-width="2.5"/>
+
+        <!-- LIVERY GRAPHICS (Clipped to metal body) -->
+        <g clip-path="url(#gf8BodyClip)">
+            
+        <!-- Primary Graphic Mass (30%): Dark Obsidian Speed Blade -->
+        <polygon points="195,295 440,245 838,252 846,285 795,295 645,295 345,295" fill="#121417"/>
+        <polygon points="410,245 742,178 798,228 826,235 560,250" fill="#121417" opacity="0.95"/>
+        <polygon points="480,240 718,176 742,178 610,230" fill="#262A30"/>
+
+        <!-- 3mm Optical Isolation Line (Prevents visual blur at speed) -->
+        <polyline points="195,293 440,243 742,176" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+
+        <!-- High-Velocity Accent Slash (10%): Fluorescent Yellow / Acid Lime -->
+        <polygon points="260,255 420,242 410,247 250,260" fill="#FFE600"/>
+        <polygon points="560,248 780,205 775,212 555,253" fill="#FFE600"/>
+        <polygon points="730,170 758,163 762,168 734,175" fill="#FFE600"/> <!-- Roof wing tip -->
+        
+
+            <!-- Hood Scoop & Top Extractor Vents -->
+            <polygon points="275,229 305,233 300,237 270,233" fill="#16181B" stroke="#333" stroke-width="1"/>
+
+            <!-- Side Rub Strip (Distinctive GF8 OEM Feature) -->
+            <path d="M 195 262 L 835 262" stroke="#181A1D" stroke-width="3.5" stroke-linecap="round"/>
+            <path d="M 195 262 L 835 262" stroke="#2E3238" stroke-width="1"/>
+
+            <!-- Door Handle Details -->
+            <rect x="475" y="244" width="22" height="6" rx="2" fill="#141518" stroke="#333" stroke-width="0.8"/>
+            <rect x="565" y="244" width="22" height="6" rx="2" fill="#141518" stroke="#333" stroke-width="0.8"/>
+
+            <!-- Mid-Door Title Sponsor Billboard -->
+            <g transform="translate(500, 246)">
+                <text x="0" y="0" font-family="'Impact', 'Arial Black', sans-serif" font-size="30" font-weight="900" 
+                      fill="#FFFFFF" stroke="#000000" stroke-width="1.8" text-anchor="middle" letter-spacing="1.5">
+                    PRODRIVE
+                </text>
+                <text x="0" y="16" font-family="sans-serif" font-size="10" font-weight="900" 
+                      fill="#FFE600" text-anchor="middle" letter-spacing="3">
+                    STI PERFORMANCE
+                </text>
+            </g>
+
+            <!-- Front Fender Tier 3 Vertical Sponsor Stack -->
+            <g transform="translate(330, 230)" font-family="'Arial Black', sans-serif" font-size="6.5" font-weight="900" fill="#FFFFFF">
+                <text x="0" y="0" fill="#FFE600">STI</text>
+                <text x="0" y="8">MOTUL</text>
+                <text x="0" y="16">BILSTEIN</text>
+                <text x="0" y="24">BREMBO</text>
+                <text x="0" y="32">ENKEI</text>
+            </g>
+
+            <!-- Competition Race Number Roundel / Square -->
+            <g transform="translate(420, 216)">
+                <rect width="32" height="38" fill="#FFFFFF" stroke="#111" stroke-width="2" rx="2" filter="url(#carbonDrop)"/>
+                <rect x="0" y="0" width="32" height="8" fill="#FFE600"/>
+                <text x="16" y="30" font-family="'Impact', sans-serif" font-size="22" font-weight="bold" fill="#111111" text-anchor="middle">55</text>
+            </g>
+
+            <!-- Front Bumper License Plate Badge (User's real plate LJC-055) -->
+            <g transform="translate(112, 276)">
+                <rect width="26" height="8" fill="#FFFFFF" stroke="#111" stroke-width="0.8" rx="1"/>
+                <rect width="5" height="8" fill="#003399" rx="0.5"/> <!-- EU blue strip -->
+                <text x="2.5" y="6" font-family="sans-serif" font-size="4" font-weight="bold" fill="#FFD700" text-anchor="middle">H</text>
+                <text x="15.5" y="6" font-family="monospace" font-size="4.5" font-weight="bold" fill="#111" text-anchor="middle">LJC-055</text>
+            </g>
+
+            <!-- Scrutineering Tow Hook Decal -->
+            <g transform="translate(132, 284)">
+                <polygon points="0,0 6,3 0,6" fill="#FF1E27"/>
+                <text x="8" y="4.5" font-family="monospace" font-size="4.5" font-weight="bold" fill="#FF1E27">TOW</text>
+            </g>
+        </g>
+
+        <!-- CABIN GREENHOUSE (Wagon 3-Glass Architecture) -->
+        <path d="M 385 228 L 454 176 L 718 176 L 782 228 Z" fill="url(#glassGradient)" stroke="#111111" stroke-width="2.5"/>
+
+        <!-- B-Pillar & C-Pillar Body Dividers -->
+        <rect x="530" y="176" width="12" height="52" fill="#15171A" stroke="#111" stroke-width="0.5"/>
+        <rect x="620" y="176" width="12" height="52" fill="#15171A" stroke="#111" stroke-width="0.5"/>
+
+        <!-- Door Panel Cutlines -->
+        <path d="M 454 176 L 445 290" fill="none" stroke="#151618" stroke-width="2"/>
+        <path d="M 536 228 L 532 290" fill="none" stroke="#151618" stroke-width="2"/>
+        <path d="M 626 228 L 622 290" fill="none" stroke="#151618" stroke-width="2"/>
+
+        <!-- Front Lower Rocker Splitter -->
+        <path d="M 100 295 L 845 295 L 835 301 L 105 301 Z" fill="#0B0B0D"/>
+
+        <!-- Headlight Assembly (Classic GF Headlight with amber corner reflector) -->
+        <path d="M 135 248 L 178 243 L 174 258 L 138 258 Z" fill="#FFFDE7" stroke="#333" stroke-width="1"/>
+        <polygon points="178,243 186,244 182,258 174,258" fill="#FF8F00"/> <!-- Amber indicator -->
+
+        <!-- Classic Round Fog Light Cutout -->
+        <circle cx="152" cy="276" r="9" fill="#202226" stroke="#444" stroke-width="1.2"/>
+        <circle cx="152" cy="276" r="6" fill="#FFF9C4" opacity="0.8"/>
+
+        <!-- Taillight Assembly -->
+        <path d="M 822 238 L 836 248 L 826 260 Z" fill="#D50000" stroke="#333" stroke-width="1"/>
+        <rect x="824" y="246" width="9" height="4" fill="#FF8F00"/>
+    </g>
+
+    <!-- Wheels (User's iconic 6-Spoke Gold TE37 / Speedline Style) -->
+    
+    <!-- Wheel Assembly at (270, 295) -->
+    <g class="wheel">
+        <!-- Rubber Tire -->
+        <circle cx="270" cy="295" r="66" fill="#18181A" stroke="#0D0D0F" stroke-width="4"/>
+        <circle cx="270" cy="295" r="56" fill="none" stroke="#252528" stroke-width="1.5" stroke-dasharray="8 4"/>
+        <!-- Tire Lettering Stencil -->
+        <path id="tire_curve_270" d="M 212 295 A 58 58 0 0 1 328 295" fill="none"/>
+        <text font-family="'Impact', 'Arial Black', sans-serif" font-size="9" font-weight="bold" fill="#F0F0F0" letter-spacing="2">
+            <textPath href="#tire_curve_270" startOffset="50%" text-anchor="middle">
+                POTENZA
+            </textPath>
+        </text>
+        <!-- Rim Outer Lip -->
+        <circle cx="270" cy="295" r="50" fill="#111111" stroke="#444444" stroke-width="2.5"/>
+        <circle cx="270" cy="295" r="46" fill="#D4AF37" stroke="#000000" stroke-width="1.5"/>
+        <circle cx="270" cy="295" r="38" fill="#0A0A0A"/>
+    
+        <!-- 6 Spokes -->
+        <g stroke="#D4AF37" stroke-width="7" stroke-linecap="round">
+            <line x1="270" y1="295" x2="270" y2="253"/>
+            <line x1="270" y1="295" x2="313" y2="274"/>
+            <line x1="270" y1="295" x2="313" y2="316"/>
+            <line x1="270" y1="295" x2="270" y2="337"/>
+            <line x1="270" y1="295" x2="227" y2="316"/>
+            <line x1="270" y1="295" x2="227" y2="274"/>
+        </g>
+        <!-- Center Hub & 5 Lugs -->
+        <circle cx="270" cy="295" r="12" fill="#111111" stroke="#333" stroke-width="1.5"/>
+        <circle cx="270" cy="295" r="5" fill="#0055A5"/>
+        <circle cx="270" cy="288" r="1.8" fill="#FFF"/>
+        <circle cx="277" cy="293" r="1.8" fill="#FFF"/>
+        <circle cx="274" cy="301" r="1.8" fill="#FFF"/>
+        <circle cx="266" cy="301" r="1.8" fill="#FFF"/>
+        <circle cx="263" cy="293" r="1.8" fill="#FFF"/>
+        </g>
+
+    
+    <!-- Wheel Assembly at (720, 295) -->
+    <g class="wheel">
+        <!-- Rubber Tire -->
+        <circle cx="720" cy="295" r="66" fill="#18181A" stroke="#0D0D0F" stroke-width="4"/>
+        <circle cx="720" cy="295" r="56" fill="none" stroke="#252528" stroke-width="1.5" stroke-dasharray="8 4"/>
+        <!-- Tire Lettering Stencil -->
+        <path id="tire_curve_720" d="M 662 295 A 58 58 0 0 1 778 295" fill="none"/>
+        <text font-family="'Impact', 'Arial Black', sans-serif" font-size="9" font-weight="bold" fill="#F0F0F0" letter-spacing="2">
+            <textPath href="#tire_curve_720" startOffset="50%" text-anchor="middle">
+                POTENZA
+            </textPath>
+        </text>
+        <!-- Rim Outer Lip -->
+        <circle cx="720" cy="295" r="50" fill="#111111" stroke="#444444" stroke-width="2.5"/>
+        <circle cx="720" cy="295" r="46" fill="#D4AF37" stroke="#000000" stroke-width="1.5"/>
+        <circle cx="720" cy="295" r="38" fill="#0A0A0A"/>
+    
+        <!-- 6 Spokes -->
+        <g stroke="#D4AF37" stroke-width="7" stroke-linecap="round">
+            <line x1="720" y1="295" x2="720" y2="253"/>
+            <line x1="720" y1="295" x2="763" y2="274"/>
+            <line x1="720" y1="295" x2="763" y2="316"/>
+            <line x1="720" y1="295" x2="720" y2="337"/>
+            <line x1="720" y1="295" x2="677" y2="316"/>
+            <line x1="720" y1="295" x2="677" y2="274"/>
+        </g>
+        <!-- Center Hub & 5 Lugs -->
+        <circle cx="720" cy="295" r="12" fill="#111111" stroke="#333" stroke-width="1.5"/>
+        <circle cx="720" cy="295" r="5" fill="#0055A5"/>
+        <circle cx="720" cy="288" r="1.8" fill="#FFF"/>
+        <circle cx="727" cy="293" r="1.8" fill="#FFF"/>
+        <circle cx="724" cy="301" r="1.8" fill="#FFF"/>
+        <circle cx="716" cy="301" r="1.8" fill="#FFF"/>
+        <circle cx="713" cy="293" r="1.8" fill="#FFF"/>
+        </g>
+
+
+    <!-- Spec Banner Header -->
+    <text x="35" y="38" font-family="'Impact', sans-serif" font-size="20" fill="#EAEAEA" letter-spacing="1.5">
+        SUBARU IMPREZA GF8 SPORTSWAGON // GLACIER WORKS // SPEEDHUNTERS DTM SPEC
+    </text>
+    <text x="35" y="58" font-family="monospace" font-size="11" fill="#888888">
+        THEME: BRIGHT_BASE | BASE: #E1E5EB | SECONDARY: #121417 | ACCENT: #FFE600 | RIMS: #D4AF37
+    </text>
+</svg>
