@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256"><title>Car Livery Creator</title><g transform="translate(5.12 5.12) scale(0.96)">
+  
+  <defs>
+    <linearGradient id="bladeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15171E"/>
+      <stop offset="100%" stop-color="#0B0C0F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Industrial Dark Squircle Container -->
+  <rect x="16" y="16" width="224" height="224" rx="32" fill="url(#bladeBg)" stroke="#232733" stroke-width="4"/>
+
+  <!-- High-Velocity Forward Raked Winglets (32° Precision Racing Angle) -->
+  <g transform="translate(128, 128)">
+    <!-- Main Velocity Blade (Electric High-Vis Speed Yellow) -->
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600"/>
+
+    <!-- Trailing Aero Flap (Vibrant Crimson Red) -->
+    <polygon points="-12,68 24,68 88,-34 52,-34" fill="#FF1E42"/>
+
+    <!-- Ground-Effect Knife Slash (Pure Arctic White) -->
+    <polygon points="-88,68 -72,68 -32,4 -48,4" fill="#FFFFFF"/>
+
+    <!-- Negative Space Vinyl Cutter Knife Slices (Cut Through All Blades) -->
+    <line x1="-80" y1="8" x2="80" y2="8" stroke="#0F1014" stroke-width="6"/>
+
+    <!-- Technical Hardware Precision Accents -->
+    <circle cx="-82" cy="-82" r="4.5" fill="#FFE600"/>
+    <circle cx="82" cy="82" r="4.5" fill="#FF1E42"/>
+  </g>
+</g></svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Car Livery Creator — Transparent Velocity Blade</title>
+  <!-- High-Velocity Forward Raked Winglets (32° Precision Racing Angle) -->
+  <g transform="translate(128, 128) scale(1.18)">
+    <!-- Main Velocity Blade (Electric High-Vis Speed Yellow) -->
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600"/>
+
+    <!-- Trailing Aero Flap (Vibrant Crimson Red) -->
+    <polygon points="-12,68 24,68 88,-34 52,-34" fill="#FF1E42"/>
+
+    <!-- Ground-Effect Knife Slash (Pure Arctic White) -->
+    <polygon points="-88,68 -72,68 -32,4 -48,4" fill="#FFFFFF"/>
+
+    <!-- Negative Space Vinyl Cutter Knife Slices (Cut With Transparent Mask or Cutout Geometry) -->
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600" mask="url(#bladeMask)"/>
+    
+    <!-- Knife Gap Cutout -->
+    <rect x="-90" y="5" width="180" height="6" fill="#0C0D11"/>
+  </g>
+</svg>

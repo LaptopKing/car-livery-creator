@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 256" width="960" height="256">
+  <title>Car Livery Creator — Transparent Horizontal Lockup</title>
+  <!-- Symbol Left -->
+  <g transform="translate(136, 128) scale(0.85)">
+    <rect x="-112" y="-112" width="224" height="224" rx="28" fill="#141720" stroke="#252A38" stroke-width="4"/>
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600"/>
+    <polygon points="-12,68 24,68 88,-34 52,-34" fill="#FF1E42"/>
+    <polygon points="-88,68 -72,68 -32,4 -48,4" fill="#FFFFFF"/>
+    <line x1="-80" y1="8" x2="80" y2="8" stroke="#141720" stroke-width="6"/>
+    <circle cx="-82" cy="-82" r="4" fill="#FFE600"/>
+    <circle cx="82" cy="82" r="4" fill="#FF1E42"/>
+  </g>
+
+  <!-- Typography Right -->
+  <g transform="translate(268, 0)">
+    <!-- Technical Spec Tag -->
+    <text x="4" y="58" font-family="'Impact', 'Arial Black', sans-serif" font-size="13" font-weight="900" fill="#FFE600" letter-spacing="4">
+      RACING GRAPHICS // SPEC. 01
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="136" font-family="'Impact', 'Arial Black', sans-serif" font-size="82" font-style="italic" font-weight="900" fill="#FFFFFF" letter-spacing="1">
+      CAR LIVERY
+    </text>
+
+    <!-- Subtitle Block "CREATOR" -->
+    <g transform="translate(4, 154)">
+      <polygon points="0,0 230,0 210,38 0,38" fill="#FF1E42"/>
+      <text x="14" y="27" font-family="'Arial Black', sans-serif" font-size="22" font-style="italic" font-weight="900" fill="#FFFFFF" letter-spacing="8">
+        CREATOR
+      </text>
+      <!-- Speed Accent Blocks -->
+      <polygon points="222,0 238,0 224,38 208,38" fill="#FFE600"/>
+      <polygon points="244,0 254,0 240,38 230,38" fill="#FFFFFF"/>
+    </g>
+
+    <text x="278" y="180" font-family="monospace" font-size="12" font-weight="bold" fill="#7E8597" letter-spacing="3">
+      AERODYNAMIC WRAP STUDIO
+    </text>
+  </g>
+</svg>
