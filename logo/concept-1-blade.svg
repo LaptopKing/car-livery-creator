@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Car Livery Creator - Vinyl Blade Mark</title>
+  <!-- Concept 1: The Vinyl Blade (Precision Aero Slashes / Speedhunters & DTM Street) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Octagonal Base -->
+    <rect x="-112" y="-112" width="224" height="224" rx="28" fill="#111317" stroke="#232733" stroke-width="4"/>
+
+    <!-- High-Velocity Forward Raked Winglets (32° Racing Angle) -->
+    <!-- Blade 1: Main Velocity Body (Electric High-Vis Yellow) -->
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600"/>
+
+    <!-- Blade 2: Trailing Aero Flap (Vibrant Crimson Red) -->
+    <polygon points="-12,68 24,68 88,-34 52,-34" fill="#FF1E42"/>
+
+    <!-- Blade 3: Ground-Effect Knife Slash (Pure Arctic White) -->
+    <polygon points="-88,68 -72,68 -32,4 -48,4" fill="#FFFFFF"/>
+
+    <!-- Negative Space Vinyl Cutter Knife Slices -->
+    <line x1="-80" y1="8" x2="80" y2="8" stroke="#111317" stroke-width="6"/>
+
+    <!-- Technical Stencil Dots -->
+    <circle cx="-82" cy="-82" r="4" fill="#FFE600"/>
+    <circle cx="82" cy="82" r="4" fill="#FF1E42"/>
+  </g>
+</svg>

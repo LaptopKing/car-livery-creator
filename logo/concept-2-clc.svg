@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Car Livery Creator - Apex CLC Monogram</title>
+  <!-- Concept 2: Apex Monogram CLC (Industrial Stance / Rotiform & Hoonigan Garage DNA) -->
+  <g transform="translate(128, 128)">
+    <!-- Heavy Industrial Squircle Container -->
+    <rect x="-112" y="-112" width="224" height="224" rx="36" fill="#12141B" stroke="#252A38" stroke-width="4"/>
+
+    <!-- Interlocking "C" + "L" Aerodynamic Canard Monogram -->
+    <!-- Outer "C" Splitter Winglet (Arctic White) -->
+    <path d="M 48,-64 L -24,-64 C -60,-64 -80,-40 -80,0 C -80,40 -60,64 -24,64 L 48,64 L 48,32 L -16,32 C -36,32 -44,20 -44,0 C -44,-20 -36,-32 -16,-32 L 48,-32 Z" fill="#FFFFFF"/>
+
+    <!-- Inner "L" Velocity Blade (Electric GT Cyan) -->
+    <polygon points="-8,-48 24,-48 24,12 84,12 84,48 -8,48" fill="#00E5FF"/>
+
+    <!-- Diagonal Aerodynamic Vent Slit -->
+    <polygon points="32,-64 48,-64 68,-32 52,-32" fill="#00E5FF"/>
+
+    <!-- Track Apex Curb Notches (Top Right & Bottom Left) -->
+    <rect x="74" y="-88" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="52" y="-88" width="16" height="6" fill="#FFFFFF" rx="1"/>
+    <rect x="-90" y="82" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="-68" y="82" width="16" height="6" fill="#FFFFFF" rx="1"/>
+  </g>
+</svg>

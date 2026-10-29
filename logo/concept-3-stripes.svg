@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Car Livery Creator - Velocity Wrap Stripes</title>
+  <!-- Concept 3: Velocity Wrap Stripes (International GT & Endurance Heritage) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Circular Racing Roundel Base -->
+    <circle cx="0" cy="0" r="114" fill="#0E1017" stroke="#222735" stroke-width="4"/>
+
+    <!-- Three Dynamic 35° Curving Velocity Wrap Stripes -->
+    <!-- Stripe 1: Bold Front Lead (High-Octane Tangerine Orange) -->
+    <path d="M -70,74 C -20,40 20,-10 44,-84 L 80,-84 C 54,-4 10,54 -38,74 Z" fill="#FF5500"/>
+
+    <!-- Stripe 2: Middle Tension Core (Arctic White) -->
+    <path d="M -90,44 C -40,10 0,-40 24,-114 L 46,-114 C 20,-34 -20,24 -68,44 Z" fill="#FFFFFF"/>
+
+    <!-- Stripe 3: Trailing Ghost Blade (Cool Slate Silver) -->
+    <path d="M -106,12 C -60,-18 -20,-70 4,-114 L 18,-114 C -6,-64 -44,-10 -92,12 Z" fill="#4A5568"/>
+
+    <!-- Aerodynamic Center Ground Splitter Plate -->
+    <polygon points="-78,92 78,92 68,102 -68,102" fill="#FF5500"/>
+
+    <!-- Technical Scrutineering Crosshairs -->
+    <line x1="-114" y1="0" x2="-98" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="98" y1="0" x2="114" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="0" y1="-114" x2="0" y2="-98" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="0" y1="98" x2="0" y2="114" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+</svg>

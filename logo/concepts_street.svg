@@ -1,0 +1,438 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="984" viewBox="0 0 1600 984"><rect width="1600" height="984" fill="#f7f7f4"/><text x="60" y="78" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#161616">Car Livery Creator — Street &amp; Motorsport Concepts</text><text x="60" y="116" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#6b6b6b">International Automotive Styling &amp; Race Team Identity</text><rect x="60" y="150" width="474.667" height="774" rx="18" fill="#fff" stroke="#161616" stroke-width="2"/><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="90" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Vinyl Blade Mark</title>
+  <!-- Concept 1: The Vinyl Blade (Precision Aero Slashes / Speedhunters & DTM Street) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Octagonal Base -->
+    <rect x="-112" y="-112" width="224" height="224" rx="28" fill="#111317" stroke="#232733" stroke-width="4"/>
+
+    <!-- High-Velocity Forward Raked Winglets (32° Racing Angle) -->
+    <!-- Blade 1: Main Velocity Body (Electric High-Vis Yellow) -->
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600"/>
+
+    <!-- Blade 2: Trailing Aero Flap (Vibrant Crimson Red) -->
+    <polygon points="-12,68 24,68 88,-34 52,-34" fill="#FF1E42"/>
+
+    <!-- Blade 3: Ground-Effect Knife Slash (Pure Arctic White) -->
+    <polygon points="-88,68 -72,68 -32,4 -48,4" fill="#FFFFFF"/>
+
+    <!-- Negative Space Vinyl Cutter Knife Slices -->
+    <line x1="-80" y1="8" x2="80" y2="8" stroke="#111317" stroke-width="6"/>
+
+    <!-- Technical Stencil Dots -->
+    <circle cx="-82" cy="-82" r="4" fill="#FFE600"/>
+    <circle cx="82" cy="82" r="4" fill="#FF1E42"/>
+  </g>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 256" x="90" y="514" width="414.667" height="120" preserveAspectRatio="xMidYMid meet">
+  <!-- Concept 1 Lockup: Vinyl Blade (Speedhunters & DTM Street Style) -->
+  <rect width="100%" height="100%" fill="#0C0D11" rx="14"/>
+  <rect x="0" y="248" width="960" height="8" fill="#FFE600" rx="2"/>
+
+  <!-- Symbol Left -->
+  <g transform="translate(136, 128) scale(0.85)">
+    <rect x="-112" y="-112" width="224" height="224" rx="28" fill="#141720" stroke="#252A38" stroke-width="4"/>
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600"/>
+    <polygon points="-12,68 24,68 88,-34 52,-34" fill="#FF1E42"/>
+    <polygon points="-88,68 -72,68 -32,4 -48,4" fill="#FFFFFF"/>
+    <line x1="-80" y1="8" x2="80" y2="8" stroke="#141720" stroke-width="6"/>
+    <circle cx="-82" cy="-82" r="4" fill="#FFE600"/>
+    <circle cx="82" cy="82" r="4" fill="#FF1E42"/>
+  </g>
+
+  <!-- Typography Right -->
+  <g transform="translate(268, 0)">
+    <!-- Technical Spec Tag -->
+    <text x="4" y="58" font-family="'Impact', 'Arial Black', sans-serif" font-size="13" font-weight="900" fill="#FFE600" letter-spacing="4">
+      RACING GRAPHICS // SPEC. 01
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="136" font-family="'Impact', 'Arial Black', sans-serif" font-size="82" font-style="italic" font-weight="900" fill="#FFFFFF" letter-spacing="1">
+      CAR LIVERY
+    </text>
+
+    <!-- Subtitle Block "CREATOR" -->
+    <g transform="translate(4, 154)">
+      <polygon points="0,0 230,0 210,38 0,38" fill="#FF1E42"/>
+      <text x="14" y="27" font-family="'Arial Black', sans-serif" font-size="22" font-style="italic" font-weight="900" fill="#FFFFFF" letter-spacing="8">
+        CREATOR
+      </text>
+      <!-- Speed Accent Blocks -->
+      <polygon points="222,0 238,0 224,38 208,38" fill="#FFE600"/>
+      <polygon points="244,0 254,0 240,38 230,38" fill="#FFFFFF"/>
+    </g>
+
+    <text x="278" y="180" font-family="monospace" font-size="12" font-weight="bold" fill="#7E8597" letter-spacing="3">
+      AERODYNAMIC WRAP STUDIO
+    </text>
+  </g>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="90" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Vinyl Blade Mark</title>
+  <!-- Concept 1: The Vinyl Blade (Precision Aero Slashes / Speedhunters & DTM Street) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Octagonal Base -->
+    <rect x="-112" y="-112" width="224" height="224" rx="28" fill="#111317" stroke="#232733" stroke-width="4"/>
+
+    <!-- High-Velocity Forward Raked Winglets (32° Racing Angle) -->
+    <!-- Blade 1: Main Velocity Body (Electric High-Vis Yellow) -->
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600"/>
+
+    <!-- Blade 2: Trailing Aero Flap (Vibrant Crimson Red) -->
+    <polygon points="-12,68 24,68 88,-34 52,-34" fill="#FF1E42"/>
+
+    <!-- Blade 3: Ground-Effect Knife Slash (Pure Arctic White) -->
+    <polygon points="-88,68 -72,68 -32,4 -48,4" fill="#FFFFFF"/>
+
+    <!-- Negative Space Vinyl Cutter Knife Slices -->
+    <line x1="-80" y1="8" x2="80" y2="8" stroke="#111317" stroke-width="6"/>
+
+    <!-- Technical Stencil Dots -->
+    <circle cx="-82" cy="-82" r="4" fill="#FFE600"/>
+    <circle cx="82" cy="82" r="4" fill="#FF1E42"/>
+  </g>
+</svg>
+</g><text x="122" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="180" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Vinyl Blade Mark</title>
+  <!-- Concept 1: The Vinyl Blade (Precision Aero Slashes / Speedhunters & DTM Street) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Octagonal Base -->
+    <rect x="-112" y="-112" width="224" height="224" rx="28" fill="#111317" stroke="#232733" stroke-width="4"/>
+
+    <!-- High-Velocity Forward Raked Winglets (32° Racing Angle) -->
+    <!-- Blade 1: Main Velocity Body (Electric High-Vis Yellow) -->
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600"/>
+
+    <!-- Blade 2: Trailing Aero Flap (Vibrant Crimson Red) -->
+    <polygon points="-12,68 24,68 88,-34 52,-34" fill="#FF1E42"/>
+
+    <!-- Blade 3: Ground-Effect Knife Slash (Pure Arctic White) -->
+    <polygon points="-88,68 -72,68 -32,4 -48,4" fill="#FFFFFF"/>
+
+    <!-- Negative Space Vinyl Cutter Knife Slices -->
+    <line x1="-80" y1="8" x2="80" y2="8" stroke="#111317" stroke-width="6"/>
+
+    <!-- Technical Stencil Dots -->
+    <circle cx="-82" cy="-82" r="4" fill="#FFE600"/>
+    <circle cx="82" cy="82" r="4" fill="#FF1E42"/>
+  </g>
+</svg>
+</g><text x="196" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="238" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Vinyl Blade Mark</title>
+  <!-- Concept 1: The Vinyl Blade (Precision Aero Slashes / Speedhunters & DTM Street) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Octagonal Base -->
+    <rect x="-112" y="-112" width="224" height="224" rx="28" fill="#111317" stroke="#232733" stroke-width="4"/>
+
+    <!-- High-Velocity Forward Raked Winglets (32° Racing Angle) -->
+    <!-- Blade 1: Main Velocity Body (Electric High-Vis Yellow) -->
+    <polygon points="-64,68 -20,68 64,-68 20,-68" fill="#FFE600"/>
+
+    <!-- Blade 2: Trailing Aero Flap (Vibrant Crimson Red) -->
+    <polygon points="-12,68 24,68 88,-34 52,-34" fill="#FF1E42"/>
+
+    <!-- Blade 3: Ground-Effect Knife Slash (Pure Arctic White) -->
+    <polygon points="-88,68 -72,68 -32,4 -48,4" fill="#FFFFFF"/>
+
+    <!-- Negative Space Vinyl Cutter Knife Slices -->
+    <line x1="-80" y1="8" x2="80" y2="8" stroke="#111317" stroke-width="6"/>
+
+    <!-- Technical Stencil Dots -->
+    <circle cx="-82" cy="-82" r="4" fill="#FFE600"/>
+    <circle cx="82" cy="82" r="4" fill="#FF1E42"/>
+  </g>
+</svg>
+</g><text x="246" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="90.0" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">A · Vinyl Blade</text><text x="90.0" y="808" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#161616" letter-spacing="1.5">RECOMMENDED</text><text x="90.0" y="842" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">Speedhunters-inspired aero blade raked at</text><text x="90.0" y="868" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">32° with high-vis yellow and crimson cuts.</text><rect x="562.667" y="150" width="474.667" height="774" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="592.667" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Apex CLC Monogram</title>
+  <!-- Concept 2: Apex Monogram CLC (Industrial Stance / Rotiform & Hoonigan Garage DNA) -->
+  <g transform="translate(128, 128)">
+    <!-- Heavy Industrial Squircle Container -->
+    <rect x="-112" y="-112" width="224" height="224" rx="36" fill="#12141B" stroke="#252A38" stroke-width="4"/>
+
+    <!-- Interlocking "C" + "L" Aerodynamic Canard Monogram -->
+    <!-- Outer "C" Splitter Winglet (Arctic White) -->
+    <path d="M 48,-64 L -24,-64 C -60,-64 -80,-40 -80,0 C -80,40 -60,64 -24,64 L 48,64 L 48,32 L -16,32 C -36,32 -44,20 -44,0 C -44,-20 -36,-32 -16,-32 L 48,-32 Z" fill="#FFFFFF"/>
+
+    <!-- Inner "L" Velocity Blade (Electric GT Cyan) -->
+    <polygon points="-8,-48 24,-48 24,12 84,12 84,48 -8,48" fill="#00E5FF"/>
+
+    <!-- Diagonal Aerodynamic Vent Slit -->
+    <polygon points="32,-64 48,-64 68,-32 52,-32" fill="#00E5FF"/>
+
+    <!-- Track Apex Curb Notches (Top Right & Bottom Left) -->
+    <rect x="74" y="-88" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="52" y="-88" width="16" height="6" fill="#FFFFFF" rx="1"/>
+    <rect x="-90" y="82" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="-68" y="82" width="16" height="6" fill="#FFFFFF" rx="1"/>
+  </g>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 256" x="592.667" y="514" width="414.667" height="120" preserveAspectRatio="xMidYMid meet">
+  <!-- Concept 2 Lockup: Apex CLC Monogram -->
+  <rect width="100%" height="100%" fill="#0A0C10" rx="14"/>
+  <rect x="0" y="248" width="960" height="8" fill="#00E5FF" rx="2"/>
+
+  <!-- Symbol Left -->
+  <g transform="translate(136, 128) scale(0.85)">
+    <rect x="-112" y="-112" width="224" height="224" rx="36" fill="#12141B" stroke="#252A38" stroke-width="4"/>
+    <path d="M 48,-64 L -24,-64 C -60,-64 -80,-40 -80,0 C -80,40 -60,64 -24,64 L 48,64 L 48,32 L -16,32 C -36,32 -44,20 -44,0 C -44,-20 -36,-32 -16,-32 L 48,-32 Z" fill="#FFFFFF"/>
+    <polygon points="-8,-48 24,-48 24,12 84,12 84,48 -8,48" fill="#00E5FF"/>
+    <polygon points="32,-64 48,-64 68,-32 52,-32" fill="#00E5FF"/>
+    <rect x="74" y="-88" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="52" y="-88" width="16" height="6" fill="#FFFFFF" rx="1"/>
+    <rect x="-90" y="82" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="-68" y="82" width="16" height="6" fill="#FFFFFF" rx="1"/>
+  </g>
+
+  <!-- Typography Right -->
+  <g transform="translate(268, 0)">
+    <!-- Overhead Tag -->
+    <text x="4" y="58" font-family="monospace" font-size="13" font-weight="900" fill="#00E5FF" letter-spacing="4">
+      [ MOTORSPORT IDENTITY // CHASSIS LAB ]
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="136" font-family="'Impact', 'Arial Black', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF" letter-spacing="1">
+      CAR LIVERY
+    </text>
+
+    <!-- Cyan Accent Block -->
+    <g transform="translate(4, 154)">
+      <polygon points="0,0 230,0 210,38 0,38" fill="#00E5FF"/>
+      <text x="14" y="27" font-family="'Arial Black', sans-serif" font-size="22" font-style="italic" font-weight="900" fill="#0A0C10" letter-spacing="8">
+        CREATOR
+      </text>
+      <!-- Accent notch -->
+      <polygon points="220,0 234,0 220,38 206,38" fill="#FFFFFF"/>
+    </g>
+
+    <text x="264" y="180" font-family="sans-serif" font-size="12" font-weight="800" fill="#7E8597" letter-spacing="3">
+      PRO LIVERY GRAPHICS SUITE
+    </text>
+  </g>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="592.667" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Apex CLC Monogram</title>
+  <!-- Concept 2: Apex Monogram CLC (Industrial Stance / Rotiform & Hoonigan Garage DNA) -->
+  <g transform="translate(128, 128)">
+    <!-- Heavy Industrial Squircle Container -->
+    <rect x="-112" y="-112" width="224" height="224" rx="36" fill="#12141B" stroke="#252A38" stroke-width="4"/>
+
+    <!-- Interlocking "C" + "L" Aerodynamic Canard Monogram -->
+    <!-- Outer "C" Splitter Winglet (Arctic White) -->
+    <path d="M 48,-64 L -24,-64 C -60,-64 -80,-40 -80,0 C -80,40 -60,64 -24,64 L 48,64 L 48,32 L -16,32 C -36,32 -44,20 -44,0 C -44,-20 -36,-32 -16,-32 L 48,-32 Z" fill="#FFFFFF"/>
+
+    <!-- Inner "L" Velocity Blade (Electric GT Cyan) -->
+    <polygon points="-8,-48 24,-48 24,12 84,12 84,48 -8,48" fill="#00E5FF"/>
+
+    <!-- Diagonal Aerodynamic Vent Slit -->
+    <polygon points="32,-64 48,-64 68,-32 52,-32" fill="#00E5FF"/>
+
+    <!-- Track Apex Curb Notches (Top Right & Bottom Left) -->
+    <rect x="74" y="-88" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="52" y="-88" width="16" height="6" fill="#FFFFFF" rx="1"/>
+    <rect x="-90" y="82" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="-68" y="82" width="16" height="6" fill="#FFFFFF" rx="1"/>
+  </g>
+</svg>
+</g><text x="624.667" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="682.667" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Apex CLC Monogram</title>
+  <!-- Concept 2: Apex Monogram CLC (Industrial Stance / Rotiform & Hoonigan Garage DNA) -->
+  <g transform="translate(128, 128)">
+    <!-- Heavy Industrial Squircle Container -->
+    <rect x="-112" y="-112" width="224" height="224" rx="36" fill="#12141B" stroke="#252A38" stroke-width="4"/>
+
+    <!-- Interlocking "C" + "L" Aerodynamic Canard Monogram -->
+    <!-- Outer "C" Splitter Winglet (Arctic White) -->
+    <path d="M 48,-64 L -24,-64 C -60,-64 -80,-40 -80,0 C -80,40 -60,64 -24,64 L 48,64 L 48,32 L -16,32 C -36,32 -44,20 -44,0 C -44,-20 -36,-32 -16,-32 L 48,-32 Z" fill="#FFFFFF"/>
+
+    <!-- Inner "L" Velocity Blade (Electric GT Cyan) -->
+    <polygon points="-8,-48 24,-48 24,12 84,12 84,48 -8,48" fill="#00E5FF"/>
+
+    <!-- Diagonal Aerodynamic Vent Slit -->
+    <polygon points="32,-64 48,-64 68,-32 52,-32" fill="#00E5FF"/>
+
+    <!-- Track Apex Curb Notches (Top Right & Bottom Left) -->
+    <rect x="74" y="-88" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="52" y="-88" width="16" height="6" fill="#FFFFFF" rx="1"/>
+    <rect x="-90" y="82" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="-68" y="82" width="16" height="6" fill="#FFFFFF" rx="1"/>
+  </g>
+</svg>
+</g><text x="698.667" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="740.667" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Apex CLC Monogram</title>
+  <!-- Concept 2: Apex Monogram CLC (Industrial Stance / Rotiform & Hoonigan Garage DNA) -->
+  <g transform="translate(128, 128)">
+    <!-- Heavy Industrial Squircle Container -->
+    <rect x="-112" y="-112" width="224" height="224" rx="36" fill="#12141B" stroke="#252A38" stroke-width="4"/>
+
+    <!-- Interlocking "C" + "L" Aerodynamic Canard Monogram -->
+    <!-- Outer "C" Splitter Winglet (Arctic White) -->
+    <path d="M 48,-64 L -24,-64 C -60,-64 -80,-40 -80,0 C -80,40 -60,64 -24,64 L 48,64 L 48,32 L -16,32 C -36,32 -44,20 -44,0 C -44,-20 -36,-32 -16,-32 L 48,-32 Z" fill="#FFFFFF"/>
+
+    <!-- Inner "L" Velocity Blade (Electric GT Cyan) -->
+    <polygon points="-8,-48 24,-48 24,12 84,12 84,48 -8,48" fill="#00E5FF"/>
+
+    <!-- Diagonal Aerodynamic Vent Slit -->
+    <polygon points="32,-64 48,-64 68,-32 52,-32" fill="#00E5FF"/>
+
+    <!-- Track Apex Curb Notches (Top Right & Bottom Left) -->
+    <rect x="74" y="-88" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="52" y="-88" width="16" height="6" fill="#FFFFFF" rx="1"/>
+    <rect x="-90" y="82" width="16" height="6" fill="#00E5FF" rx="1"/>
+    <rect x="-68" y="82" width="16" height="6" fill="#FFFFFF" rx="1"/>
+  </g>
+</svg>
+</g><text x="748.667" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="592.6666666666667" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">B · Apex CLC</text><text x="592.6666666666667" y="814" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">Industrial stance monogram where C and L</text><text x="592.6666666666667" y="840" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">interlock into an aero splitter winglet.</text><rect x="1065.33" y="150" width="474.667" height="774" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1095.33" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Velocity Wrap Stripes</title>
+  <!-- Concept 3: Velocity Wrap Stripes (International GT & Endurance Heritage) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Circular Racing Roundel Base -->
+    <circle cx="0" cy="0" r="114" fill="#0E1017" stroke="#222735" stroke-width="4"/>
+
+    <!-- Three Dynamic 35° Curving Velocity Wrap Stripes -->
+    <!-- Stripe 1: Bold Front Lead (High-Octane Tangerine Orange) -->
+    <path d="M -70,74 C -20,40 20,-10 44,-84 L 80,-84 C 54,-4 10,54 -38,74 Z" fill="#FF5500"/>
+
+    <!-- Stripe 2: Middle Tension Core (Arctic White) -->
+    <path d="M -90,44 C -40,10 0,-40 24,-114 L 46,-114 C 20,-34 -20,24 -68,44 Z" fill="#FFFFFF"/>
+
+    <!-- Stripe 3: Trailing Ghost Blade (Cool Slate Silver) -->
+    <path d="M -106,12 C -60,-18 -20,-70 4,-114 L 18,-114 C -6,-64 -44,-10 -92,12 Z" fill="#4A5568"/>
+
+    <!-- Aerodynamic Center Ground Splitter Plate -->
+    <polygon points="-78,92 78,92 68,102 -68,102" fill="#FF5500"/>
+
+    <!-- Technical Scrutineering Crosshairs -->
+    <line x1="-114" y1="0" x2="-98" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="98" y1="0" x2="114" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="0" y1="-114" x2="0" y2="-98" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="0" y1="98" x2="0" y2="114" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 256" x="1095.33" y="514" width="414.667" height="120" preserveAspectRatio="xMidYMid meet">
+  <!-- Concept 3 Lockup: Velocity Wrap Stripes -->
+  <rect width="100%" height="100%" fill="#0A0C10" rx="14"/>
+  <rect x="0" y="248" width="960" height="8" fill="#FF5500" rx="2"/>
+
+  <!-- Symbol Left -->
+  <g transform="translate(136, 128) scale(0.85)">
+    <circle cx="0" cy="0" r="114" fill="#0E1017" stroke="#222735" stroke-width="4"/>
+    <path d="M -70,74 C -20,40 20,-10 44,-84 L 80,-84 C 54,-4 10,54 -38,74 Z" fill="#FF5500"/>
+    <path d="M -90,44 C -40,10 0,-40 24,-114 L 46,-114 C 20,-34 -20,24 -68,44 Z" fill="#FFFFFF"/>
+    <path d="M -106,12 C -60,-18 -20,-70 4,-114 L 18,-114 C -6,-64 -44,-10 -92,12 Z" fill="#4A5568"/>
+    <polygon points="-78,92 78,92 68,102 -68,102" fill="#FF5500"/>
+    <line x1="-114" y1="0" x2="-98" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="98" y1="0" x2="114" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="0" y1="-114" x2="0" y2="-98" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="0" y1="98" x2="0" y2="114" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+
+  <!-- Typography Right -->
+  <g transform="translate(268, 0)">
+    <!-- Overhead Tag -->
+    <text x="4" y="58" font-family="'Impact', 'Arial Black', sans-serif" font-size="13" font-weight="900" fill="#FF5500" letter-spacing="4">
+      VELOCITY GRAPHICS // GT SERIES
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="136" font-family="'Impact', 'Arial Black', sans-serif" font-size="82" font-style="italic" font-weight="900" fill="#FFFFFF" letter-spacing="1">
+      CAR LIVERY
+    </text>
+
+    <!-- Orange Accent Block -->
+    <g transform="translate(4, 154)">
+      <polygon points="0,0 230,0 210,38 0,38" fill="#FF5500"/>
+      <text x="14" y="27" font-family="'Arial Black', sans-serif" font-size="22" font-style="italic" font-weight="900" fill="#FFFFFF" letter-spacing="8">
+        CREATOR
+      </text>
+      <!-- White accent -->
+      <polygon points="222,0 234,0 220,38 208,38" fill="#FFFFFF"/>
+    </g>
+
+    <text x="264" y="180" font-family="sans-serif" font-size="12" font-weight="800" fill="#7E8597" letter-spacing="3">
+      ENDURANCE &amp; CIRCUIT DESIGN
+    </text>
+  </g>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1095.33" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Velocity Wrap Stripes</title>
+  <!-- Concept 3: Velocity Wrap Stripes (International GT & Endurance Heritage) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Circular Racing Roundel Base -->
+    <circle cx="0" cy="0" r="114" fill="#0E1017" stroke="#222735" stroke-width="4"/>
+
+    <!-- Three Dynamic 35° Curving Velocity Wrap Stripes -->
+    <!-- Stripe 1: Bold Front Lead (High-Octane Tangerine Orange) -->
+    <path d="M -70,74 C -20,40 20,-10 44,-84 L 80,-84 C 54,-4 10,54 -38,74 Z" fill="#FF5500"/>
+
+    <!-- Stripe 2: Middle Tension Core (Arctic White) -->
+    <path d="M -90,44 C -40,10 0,-40 24,-114 L 46,-114 C 20,-34 -20,24 -68,44 Z" fill="#FFFFFF"/>
+
+    <!-- Stripe 3: Trailing Ghost Blade (Cool Slate Silver) -->
+    <path d="M -106,12 C -60,-18 -20,-70 4,-114 L 18,-114 C -6,-64 -44,-10 -92,12 Z" fill="#4A5568"/>
+
+    <!-- Aerodynamic Center Ground Splitter Plate -->
+    <polygon points="-78,92 78,92 68,102 -68,102" fill="#FF5500"/>
+
+    <!-- Technical Scrutineering Crosshairs -->
+    <line x1="-114" y1="0" x2="-98" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="98" y1="0" x2="114" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="0" y1="-114" x2="0" y2="-98" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="0" y1="98" x2="0" y2="114" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+</svg>
+</g><text x="1127.33" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1185.33" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Velocity Wrap Stripes</title>
+  <!-- Concept 3: Velocity Wrap Stripes (International GT & Endurance Heritage) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Circular Racing Roundel Base -->
+    <circle cx="0" cy="0" r="114" fill="#0E1017" stroke="#222735" stroke-width="4"/>
+
+    <!-- Three Dynamic 35° Curving Velocity Wrap Stripes -->
+    <!-- Stripe 1: Bold Front Lead (High-Octane Tangerine Orange) -->
+    <path d="M -70,74 C -20,40 20,-10 44,-84 L 80,-84 C 54,-4 10,54 -38,74 Z" fill="#FF5500"/>
+
+    <!-- Stripe 2: Middle Tension Core (Arctic White) -->
+    <path d="M -90,44 C -40,10 0,-40 24,-114 L 46,-114 C 20,-34 -20,24 -68,44 Z" fill="#FFFFFF"/>
+
+    <!-- Stripe 3: Trailing Ghost Blade (Cool Slate Silver) -->
+    <path d="M -106,12 C -60,-18 -20,-70 4,-114 L 18,-114 C -6,-64 -44,-10 -92,12 Z" fill="#4A5568"/>
+
+    <!-- Aerodynamic Center Ground Splitter Plate -->
+    <polygon points="-78,92 78,92 68,102 -68,102" fill="#FF5500"/>
+
+    <!-- Technical Scrutineering Crosshairs -->
+    <line x1="-114" y1="0" x2="-98" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="98" y1="0" x2="114" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="0" y1="-114" x2="0" y2="-98" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="0" y1="98" x2="0" y2="114" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+</svg>
+</g><text x="1201.33" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1243.33" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <title>Car Livery Creator - Velocity Wrap Stripes</title>
+  <!-- Concept 3: Velocity Wrap Stripes (International GT & Endurance Heritage) -->
+  <g transform="translate(128, 128)">
+    <!-- Stealth Dark Circular Racing Roundel Base -->
+    <circle cx="0" cy="0" r="114" fill="#0E1017" stroke="#222735" stroke-width="4"/>
+
+    <!-- Three Dynamic 35° Curving Velocity Wrap Stripes -->
+    <!-- Stripe 1: Bold Front Lead (High-Octane Tangerine Orange) -->
+    <path d="M -70,74 C -20,40 20,-10 44,-84 L 80,-84 C 54,-4 10,54 -38,74 Z" fill="#FF5500"/>
+
+    <!-- Stripe 2: Middle Tension Core (Arctic White) -->
+    <path d="M -90,44 C -40,10 0,-40 24,-114 L 46,-114 C 20,-34 -20,24 -68,44 Z" fill="#FFFFFF"/>
+
+    <!-- Stripe 3: Trailing Ghost Blade (Cool Slate Silver) -->
+    <path d="M -106,12 C -60,-18 -20,-70 4,-114 L 18,-114 C -6,-64 -44,-10 -92,12 Z" fill="#4A5568"/>
+
+    <!-- Aerodynamic Center Ground Splitter Plate -->
+    <polygon points="-78,92 78,92 68,102 -68,102" fill="#FF5500"/>
+
+    <!-- Technical Scrutineering Crosshairs -->
+    <line x1="-114" y1="0" x2="-98" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="98" y1="0" x2="114" y2="0" stroke="#FF5500" stroke-width="2.5"/>
+    <line x1="0" y1="-114" x2="0" y2="-98" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="0" y1="98" x2="0" y2="114" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+</svg>
+</g><text x="1251.33" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="1095.3333333333335" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">C · Velocity Stripes</text><text x="1095.3333333333335" y="814" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">Continuous 35° curving GT wrap stripes in</text><text x="1095.3333333333335" y="840" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">high-octane orange, white and carbon.</text></svg>
