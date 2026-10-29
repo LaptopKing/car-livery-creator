@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Concept C: The Livery Split (Aerodynamic Silhouette Bisected by Velocity Cut) -->
+  <g fill="#000000">
+    <!-- Front Upper Chassis Half (Hood, Windshield, Roof) -->
+    <path d="M 24,168 L 32,152 L 72,136 L 112,96 L 168,96 L 140,168 Z"/>
+    <!-- Rear Lower Chassis Half (Engine Deck, GT Wing, Diffuser) -->
+    <path d="M 154,88 L 220,108 L 236,132 L 232,168 L 160,168 Z"/>
+    <!-- GT Wing Plane -->
+    <polygon points="196,80 236,80 228,96 188,96"/>
+    <!-- Front Wheel Disc -->
+    <circle cx="68" cy="168" r="24"/>
+    <circle cx="68" cy="168" r="10" fill="#FFFFFF"/>
+    <!-- Rear Wheel Disc -->
+    <circle cx="192" cy="168" r="24"/>
+    <circle cx="192" cy="168" r="10" fill="#FFFFFF"/>
+    <!-- Dynamic Diagonal Speed Ground Plate -->
+    <polygon points="16,204 240,204 220,216 36,216"/>
+  </g>
+</svg>

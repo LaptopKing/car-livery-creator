@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Car Livery Creator - Velocity Wedge Mark</title>
+  <!-- Concept A: The Velocity Wedge (Three Aerodynamic Raked Shards) -->
+  <g fill="#000000" transform="translate(-15, 0)">
+    <!-- Shard 1: Leading Front Dive Plane -->
+    <polygon points="28,192 68,140 100,140 60,192"/>
+    <!-- Shard 2: Mid-Chassis Aerofoil -->
+    <polygon points="100,192 144,96 178,96 134,192"/>
+    <!-- Shard 3: High-Downforce Rear Fin -->
+    <polygon points="176,192 224,52 258,52 210,192"/>
+    <!-- Aerodynamic Ground Effect Baseline -->
+    <rect x="28" y="204" width="230" height="12" rx="2"/>
+  </g>
+</svg>
